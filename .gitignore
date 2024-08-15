@@ -4,3 +4,4 @@
 .Rbuildignore
 ^SamplePackage\.Rproj$
 ^\.Rproj\.user$
+SamplePackage.Rproj
