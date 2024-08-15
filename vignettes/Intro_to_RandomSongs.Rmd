@@ -1,0 +1,32 @@
+---
+title: "Introduction to Random Songs"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to Random Songs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MySecondPackage)
+```
+
+This is the introduction to MySecondPackage. 
+
+We use it to get a random song by an artist like this: 
+
+```{r}
+random_song()
+```
+
+```{r}
+random_song("Maroon 5")
+```
+
