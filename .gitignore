@@ -2,3 +2,5 @@
 .Rhistory
 .DS_Store
 .Rbuildignore
+^SamplePackage\.Rproj$
+^\.Rproj\.user$
